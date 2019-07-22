@@ -1,0 +1,71 @@
+/system
+/config
+
+# idea integration plugin artifact
+/plugins/mps-idea-integration/IDEAPlugin/mps-idea-integration-plugin.jar
+
+# MacOS user UI setting related file
+.DS_Store
+
+# Intellij Idea user workspace setting files
+**/.idea/workspace.xml
+**/.mps/workspace.xml
+/build/solution/.idea/workspace.xml
+/MPSPlugin/.idea/workspace.xml
+
+# Local user commits
+**/.idea/shelf
+**/.mps/shelf
+
+# Build artifacts
+/MPSPlugin/apiclasses
+/build/tmp/
+/contrib/build/tmp/
+/build/artifacts/
+/contrib/build/artifacts/
+/build/resources/help/
+/build/resources/JDK/
+/build/resources/openJDK
+classes
+classes_gen
+testclasses
+teamcity-info.xml
+*.hprof
+*.class
+
+# Plugins related excludes:
+# * Platform bundled plugins
+# * Downloadable plugin libraries
+/plugins/debugger-api/lib
+/plugins/debugger-java/lib
+/plugins/mps-vcs/lib/
+/plugins/mps-java/lib/
+/plugins/mps-java-workbench/lib/
+/plugins/execution-languages/lib
+/plugins/execution-configurations/lib
+/plugins/jetpad/lib
+/plugins/jetpad/lib/*.war
+/plugins/jetpad/lib/jetpadBuildNumber.txt
+/plugins/git4idea/lib
+/plugins/github
+/plugins/svn4idea/lib
+/plugins/mps-testing/lib
+/plugins/terminal
+/plugins/mps-migration/migration-platform/lib
+/plugins/coverage/lib
+/plugins/java
+
+# Main libraries folder: dependencies are downloaded before complilation with task 'install' from build/getDependencies.xml
+/lib/
+
+# Intellij Idea platform artifact, which is extracted to bin, build, lib & plugins folders
+/mps-platform.zip
+
+# Binary files, required for application startup (including Mac executable)
+/bin/linux
+/bin/mac
+/bin/win
+/build/resources/mps
+
+# Versions of library dependecies required for platform (like Kotlin, JDK etc)
+/build/dependencies
