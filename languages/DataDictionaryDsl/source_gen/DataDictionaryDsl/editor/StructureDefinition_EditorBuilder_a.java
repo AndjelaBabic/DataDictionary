@@ -108,14 +108,11 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
           return "Set";
         }
         if (SNodeOperations.isInstanceOf(nodeAs, MetaAdapterFactory.getConcept(0x16d63821a9174aafL, 0xa85f305cd4a0013fL, 0x7171b68977873f0L, "DataDictionaryDsl.structure.Exclusive"))) {
-          return "Exclusive spec.";
+          return "Exclusive specialization.";
         }
         if (SNodeOperations.isInstanceOf(nodeAs, MetaAdapterFactory.getConcept(0x16d63821a9174aafL, 0xa85f305cd4a0013fL, 0x73ede05be9c1bfe4L, "DataDictionaryDsl.structure.NonExclusive"))) {
-          return "NonExclusive spec.";
+          return "NonExclusive specialization.";
         }
-
-
-
         return "Structure definition";
       }
       public void setText(String s) {

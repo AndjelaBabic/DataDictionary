@@ -20,8 +20,6 @@ public class ActionAspectDescriptorImpl extends BaseActionAspectDescriptor imple
         case 0:
           return Collections.<NodeFactory>singletonList(new node_factories_Field.NodeFactory_2336684179409703904());
         case 1:
-          return Collections.<NodeFactory>singletonList(new node_factories_fieldDefinition.NodeFactory_4142988942127029836());
-        case 2:
           return Collections.<NodeFactory>singletonList(new node_factories_StructureDefinition.NodeFactory_510907218762934095());
         default:
       }
@@ -29,5 +27,5 @@ public class ActionAspectDescriptorImpl extends BaseActionAspectDescriptor imple
     return Collections.<NodeFactory>emptyList();
   }
 
-  private static String[] stringSwitchCases_tpto26_a0a0a0c = new String[]{"Field", "FieldDefinition", "StructureDefinition"};
+  private static String[] stringSwitchCases_tpto26_a0a0a0c = new String[]{"Field", "StructureDefinition"};
 }

@@ -543,6 +543,69 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="3bZzF1HLxFE" role="13h7CS">
+      <property role="TrG5h" value="getSpecializationNumbers" />
+      <node concept="3Tm1VV" id="3bZzF1HLxFF" role="1B3o_S" />
+      <node concept="10Oyi0" id="3bZzF1HL_xA" role="3clF45" />
+      <node concept="3clFbS" id="3bZzF1HLxFH" role="3clF47">
+        <node concept="3cpWs8" id="3bZzF1HL_yE" role="3cqZAp">
+          <node concept="3cpWsn" id="3bZzF1HL_yH" role="3cpWs9">
+            <property role="TrG5h" value="num" />
+            <node concept="10Oyi0" id="3bZzF1HL_yD" role="1tU5fm" />
+            <node concept="3cmrfG" id="3bZzF1HL_zd" role="33vP2m">
+              <property role="3cmrfH" value="0" />
+            </node>
+          </node>
+        </node>
+        <node concept="1DcWWT" id="3bZzF1HL__5" role="3cqZAp">
+          <node concept="3clFbS" id="3bZzF1HL__7" role="2LFqv$">
+            <node concept="3clFbJ" id="3bZzF1HLCr7" role="3cqZAp">
+              <node concept="3clFbS" id="3bZzF1HLCr9" role="3clFbx">
+                <node concept="3clFbF" id="3bZzF1HLEDN" role="3cqZAp">
+                  <node concept="3uNrnE" id="3bZzF1HLFZT" role="3clFbG">
+                    <node concept="37vLTw" id="3bZzF1HLFZV" role="2$L3a6">
+                      <ref role="3cqZAo" node="3bZzF1HL_yH" resolve="num" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="3bZzF1HLDPq" role="3clFbw">
+                <node concept="2OqwBi" id="3bZzF1HLC$Z" role="2Oq$k0">
+                  <node concept="37vLTw" id="3bZzF1HLCru" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3bZzF1HL__8" resolve="el" />
+                  </node>
+                  <node concept="3TrEf2" id="3bZzF1HLD5Y" role="2OqNvi">
+                    <ref role="3Tt5mk" to="wigx:7fHS5JDKnFD" resolve="structure" />
+                  </node>
+                </node>
+                <node concept="1mIQ4w" id="3bZzF1HLE$u" role="2OqNvi">
+                  <node concept="chp4Y" id="3bZzF1HNG2A" role="cj9EA">
+                    <ref role="cht4Q" to="wigx:sn6Qynu7fK" resolve="Exclusive" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWsn" id="3bZzF1HL__8" role="1Duv9x">
+            <property role="TrG5h" value="el" />
+            <node concept="3Tqbb2" id="3bZzF1HL_HQ" role="1tU5fm">
+              <ref role="ehGHo" to="wigx:7fHS5JDJZX6" resolve="StructureDefinition" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="3bZzF1HLA_7" role="1DdaDG">
+            <node concept="13iPFW" id="3bZzF1HLAhF" role="2Oq$k0" />
+            <node concept="3Tsc0h" id="3bZzF1HLB58" role="2OqNvi">
+              <ref role="3TtcxE" to="wigx:7fHS5JDJZXc" resolve="structures" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="3bZzF1HLHqQ" role="3cqZAp">
+          <node concept="37vLTw" id="3bZzF1HLK7a" role="3cqZAk">
+            <ref role="3cqZAo" node="3bZzF1HL_yH" resolve="num" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="13i0hz" id="uo50TYOm6l" role="13h7CS">
       <property role="TrG5h" value="ifExistStructureName" />
       <node concept="3Tm1VV" id="uo50TYOm6m" role="1B3o_S" />
